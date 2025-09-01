@@ -1,0 +1,1 @@
+searchState.loadedDescShard("multithreaded_ws", 0, "Returns the argument unchanged.\nCalls <code>U::from(self)</code>.\nCreate a new ThreadPool.")

@@ -17,7 +17,7 @@ pub enum LexError {
     #[error("unexpected character: '{0}' at position {1}")]
     UnexpectedChar(char, usize),
     #[error("unterminated token at end of input")]
-    Unterminated,
+    Unterminated,   
 }
 
 fn is_ident_start(c: char) -> bool {
